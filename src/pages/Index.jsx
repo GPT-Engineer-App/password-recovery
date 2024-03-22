@@ -36,7 +36,7 @@ const Index = () => {
       </form>
       <Text mt={4} textAlign="center">
         Remember your password?{" "}
-        <Button variant="link" colorScheme="blue">
+        <Button variant="link" colorScheme="blue" onClick={() => navigate("/login")}>
           Login
         </Button>
       </Text>
